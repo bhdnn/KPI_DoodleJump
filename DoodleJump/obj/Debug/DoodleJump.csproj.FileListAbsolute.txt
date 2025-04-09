@@ -1,0 +1,44 @@
+E:\Ника\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.AssemblyReference.cache
+E:\Ника\DoodleJump\DoodleJump\obj\Debug\DoodleJump.Form1.resources
+E:\Ника\DoodleJump\DoodleJump\obj\Debug\DoodleJump.Properties.Resources.resources
+E:\Ника\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.GenerateResource.cache
+E:\Ника\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.CoreCompileInputs.cache
+E:\Ника\DoodleJump\DoodleJump\bin\Debug\DoodleJump.exe.config
+E:\Ника\DoodleJump\DoodleJump\bin\Debug\DoodleJump.exe
+E:\Ника\DoodleJump\DoodleJump\bin\Debug\DoodleJump.pdb
+E:\Ника\DoodleJump\DoodleJump\obj\Debug\DoodleJump.exe
+E:\Ника\DoodleJump\DoodleJump\obj\Debug\DoodleJump.pdb
+E:\Ника\DoodleJump\DoodleJump\obj\Debug\DoodleJump.StartScreen.resources
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\bin\Debug\DoodleJump.exe.config
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\bin\Debug\DoodleJump.exe
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\bin\Debug\DoodleJump.pdb
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.AssemblyReference.cache
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\obj\Debug\DoodleJump.Form1.resources
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\obj\Debug\DoodleJump.Properties.Resources.resources
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\obj\Debug\DoodleJump.StartScreen.resources
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.GenerateResource.cache
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.CoreCompileInputs.cache
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\obj\Debug\DoodleJump.exe
+C:\Users\Veronika\Desktop\zopazopa\DoodleJump\DoodleJump\obj\Debug\DoodleJump.pdb
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\bin\Debug\DoodleJump.exe.config
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\bin\Debug\DoodleJump.exe
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\bin\Debug\DoodleJump.pdb
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.AssemblyReference.cache
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\obj\Debug\DoodleJump.Form1.resources
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\obj\Debug\DoodleJump.Properties.Resources.resources
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\obj\Debug\DoodleJump.StartScreen.resources
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.GenerateResource.cache
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.CoreCompileInputs.cache
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\obj\Debug\DoodleJump.exe
+C:\Users\bogda\OneDrive\Рабочий стол\DoodleJump\DoodleJump\obj\Debug\DoodleJump.pdb
+D:\DoodleJump\DoodleJump\bin\Debug\DoodleJump.exe.config
+D:\DoodleJump\DoodleJump\bin\Debug\DoodleJump.exe
+D:\DoodleJump\DoodleJump\bin\Debug\DoodleJump.pdb
+D:\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.AssemblyReference.cache
+D:\DoodleJump\DoodleJump\obj\Debug\DoodleJump.Form1.resources
+D:\DoodleJump\DoodleJump\obj\Debug\DoodleJump.Properties.Resources.resources
+D:\DoodleJump\DoodleJump\obj\Debug\DoodleJump.StartScreen.resources
+D:\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.GenerateResource.cache
+D:\DoodleJump\DoodleJump\obj\Debug\DoodleJump.csproj.CoreCompileInputs.cache
+D:\DoodleJump\DoodleJump\obj\Debug\DoodleJump.exe
+D:\DoodleJump\DoodleJump\obj\Debug\DoodleJump.pdb
