@@ -12,6 +12,11 @@ namespace DoodleJump.Classes
         public bool isTouchedByPlayer;
         public bool isFake;
 
+        public virtual void Update()
+        {
+        }
+
+
         public Platform(PointF pos, bool isFake = false)
         {
             this.isFake = isFake;

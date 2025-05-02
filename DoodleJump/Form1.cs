@@ -102,7 +102,7 @@ namespace DoodleJump
             PlatformController.bullets.Clear();
             PlatformController.bonuses.Clear();
             PlatformController.enemies.Clear();
-            PlatformController.fakePlatforms.Clear(); 
+            PlatformController.fakePlatforms.Clear();
             player = new Player();
         }
 
@@ -123,31 +123,30 @@ namespace DoodleJump
             this.Text = "Кількість очок - " + PlatformController.score;
 
             if ((player.physics.transform.position.Y >= PlatformController.platforms[0].transform.position.Y + 200) || player.physics.StandartCollidePlayerWithObjects(true, false))
-                Init();
+            {
+                GameOver();
+                return;
+            }
 
             player.physics.StandartCollidePlayerWithObjects(false, true);
 
-            if (PlatformController.bullets.Count > 0)
+            for (int i = PlatformController.bullets.Count - 1; i >= 0; i--)
             {
-                for (int i = 0; i < PlatformController.bullets.Count; i++)
+                if (Math.Abs(PlatformController.bullets[i].physics.transform.position.Y - player.physics.transform.position.Y) > 500)
                 {
-                    if (Math.Abs(PlatformController.bullets[i].physics.transform.position.Y - player.physics.transform.position.Y) > 500)
-                    {
-                        PlatformController.RemoveBullet(i);
-                        continue;
-                    }
+                    PlatformController.RemoveBullet(i);
+                }
+                else
+                {
                     PlatformController.bullets[i].MoveUp();
                 }
             }
-            if (PlatformController.enemies.Count > 0)
+
+            for (int i = PlatformController.enemies.Count - 1; i >= 0; i--)
             {
-                for (int i = 0; i < PlatformController.enemies.Count; i++)
+                if (PlatformController.enemies[i].physics.StandartCollide())
                 {
-                    if (PlatformController.enemies[i].physics.StandartCollide())
-                    {
-                        PlatformController.RemoveEnemy(i);
-                        break;
-                    }
+                    PlatformController.RemoveEnemy(i);
                 }
             }
 
@@ -155,40 +154,52 @@ namespace DoodleJump
             FollowPlayer();
             CheckBounds();
 
-            if ((player.physics.transform.position.Y >= PlatformController.platforms[0].transform.position.Y + 200) || player.physics.StandartCollidePlayerWithObjects(true, false))
-            {
-                timer1.Stop();
-                MessageBox.Show("Game over! Ваш результат: " + PlatformController.score, "Кінець гри", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
-            }
-
             Invalidate();
         }
+
+        private void GameOver()
+        {
+            timer1.Stop();
+
+            int earnedCoins = PlatformController.score / 100;  // 100 очков = 1 монета
+            GameData gameData = SaveSystem.Load();
+
+            gameData.coins += earnedCoins;  // Суммируем монеты
+            SaveSystem.Save(gameData);  // Сохраняем!
+
+            MessageBox.Show($"Ви впали, набрав {PlatformController.score} очок.\nОтримано монет: {earnedCoins}\nВсього монет: {gameData.coins}",
+                             "КІНЕЦЬ ГРИ",
+                             MessageBoxButtons.OK,
+                             MessageBoxIcon.Information);
+
+            this.Close();
+            Application.Exit(); 
+        }
+
+
 
         private void OnKeyboardUp(object sender, KeyEventArgs e)
         {
             player.physics.dx = 0;
-            switch (e.KeyCode.ToString())
+            if (e.KeyCode == Keys.Space)
             {
-                case "Space":
-                    PlatformController.CreateBullet(new PointF(player.physics.transform.position.X + player.physics.transform.size.Width / 2, player.physics.transform.position.Y));
-                    break;
+                PlatformController.CreateBullet(new PointF(player.physics.transform.position.X + player.physics.transform.size.Width / 2, player.physics.transform.position.Y));
             }
         }
 
         private void OnKeyboardPressed(object sender, KeyEventArgs e)
         {
-            switch (e.KeyCode.ToString())
+            switch (e.KeyCode)
             {
-                case "Right":
+                case Keys.Right:
                     player.physics.dx = 6;
                     player.sprite = manRight;
                     break;
-                case "Left":
+                case Keys.Left:
                     player.physics.dx = -6;
                     player.sprite = manLeft;
                     break;
-                case "Space":
+                case Keys.Space:
                     player.sprite = manShooting;
                     break;
             }
@@ -198,66 +209,48 @@ namespace DoodleJump
         {
             int offset = 400 - (int)player.physics.transform.position.Y;
             player.physics.transform.position.Y += offset;
-            for (int i = 0; i < PlatformController.platforms.Count; i++)
-            {
-                var platform = PlatformController.platforms[i];
+
+            foreach (var platform in PlatformController.platforms)
                 platform.transform.position.Y += offset;
-            }
-            for (int i = 0; i < PlatformController.bullets.Count; i++)
-            {
-                var bullet = PlatformController.bullets[i];
+
+            foreach (var bullet in PlatformController.bullets)
                 bullet.physics.transform.position.Y += offset;
-            }
-            for (int i = 0; i < PlatformController.enemies.Count; i++)
-            {
-                var enemy = PlatformController.enemies[i];
+
+            foreach (var enemy in PlatformController.enemies)
                 enemy.physics.transform.position.Y += offset;
-            }
-            for (int i = 0; i < PlatformController.bonuses.Count; i++)
-            {
-                var bonus = PlatformController.bonuses[i];
+
+            foreach (var bonus in PlatformController.bonuses)
                 bonus.physics.transform.position.Y += offset;
-            }
-            for (int i = 0; i < PlatformController.fakePlatforms.Count; i++)
-            {
-                var fakePlatform = PlatformController.fakePlatforms[i];
-                fakePlatform.transform.position.Y += offset;
-            }
+
+            foreach (var fake in PlatformController.fakePlatforms)
+                fake.transform.position.Y += offset;
         }
 
         private void OnRepaint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
-            if (PlatformController.platforms.Count > 0)
-            {
-                for (int i = 0; i < PlatformController.platforms.Count; i++)
-                    g.DrawImage(platformSprite, PlatformController.platforms[i].transform.position);
-            }
-            if (PlatformController.bullets.Count > 0)
-            {
-                for (int i = 0; i < PlatformController.bullets.Count; i++)
-                    g.DrawImage(bulletSprite, new RectangleF(PlatformController.bullets[i].physics.transform.position, new SizeF(15, 15)));
-            }
-            if (PlatformController.enemies.Count > 0)
-            {
-                for (int i = 0; i < PlatformController.enemies.Count; i++)
-                    PlatformController.enemies[i].DrawSprite(g);
-            }
-            if (PlatformController.bonuses.Count > 0)
-            {
-                for (int i = 0; i < PlatformController.bonuses.Count; i++)
-                    PlatformController.bonuses[i].DrawSprite(g);
-            }
-            if (PlatformController.fakePlatforms.Count > 0)
-            {
-                for (int i = 0; i < PlatformController.fakePlatforms.Count; i++)
-                    g.DrawImage(fakePlatformSprite, PlatformController.fakePlatforms[i].transform.position);
-            }
+
+            foreach (var platform in PlatformController.platforms)
+                g.DrawImage(platformSprite, platform.transform.position);
+
+            foreach (var bullet in PlatformController.bullets)
+                g.DrawImage(bulletSprite, new RectangleF(bullet.physics.transform.position, new SizeF(15, 15)));
+
+            foreach (var enemy in PlatformController.enemies)
+                enemy.DrawSprite(g);
+
+            foreach (var bonus in PlatformController.bonuses)
+                bonus.DrawSprite(g);
+
+            foreach (var fake in PlatformController.fakePlatforms)
+                g.DrawImage(fakePlatformSprite, fake.transform.position);
+
             player.DrawSprite(g);
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
+
     }
 }

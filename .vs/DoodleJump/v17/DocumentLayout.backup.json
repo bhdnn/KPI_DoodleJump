@@ -1,0 +1,440 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\platformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\platformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|e:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\doodlejump\\doodlejump\\resources\\man_jetpack.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\resources\\man_jetpack.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|e:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\doodlejump\\doodlejump\\resources\\man.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\resources\\man.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|e:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\doodlejump\\doodlejump\\resources\\jetpack.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\resources\\jetpack.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|e:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\doodlejump\\doodlejump\\classes\\fakeplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\fakeplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\classes\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\classes\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\startscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\startscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\doodlejump\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{7C412971-1A13-4DA6-B85F-45DD6644C7E8}|DoodleJump\\DoodleJump.csproj|solutionrelative:doodlejump\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Form1.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Form1.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Form1.cs",
+              "RelativeToolTip": "DoodleJump\\Form1.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAkwP0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.289Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "man_jetpack.png - PNG [185x173, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Resources\\man_jetpack.png",
+              "RelativeDocumentMoniker": "DoodleJump\\Resources\\man_jetpack.png",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Resources\\man_jetpack.png - PNG [185x173, 32 bit, PNG]",
+              "RelativeToolTip": "DoodleJump\\Resources\\man_jetpack.png - PNG [185x173, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-02T14:17:07.911Z",
+              "EditorCaption": " - PNG [185x173, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "man.png - PNG [340x340, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Resources\\man.png",
+              "RelativeDocumentMoniker": "DoodleJump\\Resources\\man.png",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Resources\\man.png - PNG [340x340, 32 bit, PNG]",
+              "RelativeToolTip": "DoodleJump\\Resources\\man.png - PNG [340x340, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-02T14:17:07.211Z",
+              "EditorCaption": " - PNG [340x340, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "jetpack.png - PNG [750x650, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Resources\\jetpack.png",
+              "RelativeDocumentMoniker": "DoodleJump\\Resources\\jetpack.png",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Resources\\jetpack.png - PNG [750x650, 32 bit, PNG]",
+              "RelativeToolTip": "DoodleJump\\Resources\\jetpack.png - PNG [750x650, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-02T14:16:41.326Z",
+              "EditorCaption": " - PNG [750x650, 32 bit, PNG]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Transform.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Transform.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\Transform.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Transform.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\Transform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T17:17:19.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Bullet.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\Bullet.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Bullet.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\Bullet.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bonus.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Bonus.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\Bonus.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Bonus.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\Bonus.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Player.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\Player.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Player.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlatformController.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\PlatformController.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\PlatformController.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\PlatformController.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\PlatformController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAwwJoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:54:18.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartScreen.cs [Design]",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\StartScreen.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\StartScreen.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\StartScreen.cs [Design]",
+              "RelativeToolTip": "DoodleJump\\StartScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.284Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SaveSystem.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\SaveSystem.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\SaveSystem.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\SaveSystem.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\SaveSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:09:15.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Form1.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Form1.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Form1.cs [Design]",
+              "RelativeToolTip": "DoodleJump\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:39:20.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Platform.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\Platform.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Platform.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\Platform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Physics.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Physics.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\Physics.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Physics.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\Physics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:53:56.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameData.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\GameData.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\GameData.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\GameData.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\GameData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:58:13.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FakePlatform.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\FakePlatform.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\FakePlatform.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\FakePlatform.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\FakePlatform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T17:19:18.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Enemy.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Classes\\Enemy.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Classes\\Enemy.cs",
+              "RelativeToolTip": "DoodleJump\\Classes\\Enemy.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.427Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Form1.Designer.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Form1.Designer.cs",
+              "RelativeToolTip": "DoodleJump\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StartScreen.Designer.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\StartScreen.Designer.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\StartScreen.Designer.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\StartScreen.Designer.cs",
+              "RelativeToolTip": "DoodleJump\\StartScreen.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:32:11.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StartScreen.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\StartScreen.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\StartScreen.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\StartScreen.cs",
+              "RelativeToolTip": "DoodleJump\\StartScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Program.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Program.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Program.cs",
+              "RelativeToolTip": "DoodleJump\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "DoodleJump\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "DoodleJump\\Properties\\Settings.Designer.cs",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "DoodleJump\\Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:15:30.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "DoodleJump\\Properties\\Settings.settings",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Properties\\Settings.settings",
+              "RelativeToolTip": "DoodleJump\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-06-10T16:15:30.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "DoodleJump\\Properties\\Resources.resx",
+              "ToolTip": "E:\\university\\\u043A\u0443\u0440\u0441\u0430\u0447\\DoodleJump\\DoodleJump\\Properties\\Resources.resx",
+              "RelativeToolTip": "DoodleJump\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T16:15:30.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

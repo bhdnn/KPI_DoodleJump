@@ -55,49 +55,87 @@ namespace DoodleJump.Classes
         {
             ClearPlatforms();
             Random r = new Random();
-
             int xNormal = r.Next(0, 270);
-            int xFake = r.Next(0, 270);
-
             int yNormal = startPlatformPosY;
-            int yFake = startPlatformPosY;
-
-            while (Math.Abs(xFake - xNormal) < 60)
-            {
-                xFake = r.Next(0, 270);
-            }
-
-            PointF fakePosition = new PointF(xFake, yFake);
-            AddPlatform(fakePosition, true);
-
             PointF normalPosition = new PointF(xNormal, yNormal);
             AddPlatform(normalPosition, false);
 
-            int c = r.Next(1, 3);
+            if (r.NextDouble() < 0.5)
+            {
+                int xFake;
+                int attempts = 0;
 
+                do
+                {
+                    xFake = r.Next(0, 270);
+                    attempts++;
+                }
+                while (Math.Abs(xFake - xNormal) < 60 && attempts < 10);
+
+                if (attempts < 10)
+                {
+                    PointF fakePosition = new PointF(xFake, yNormal);
+                    AddPlatform(fakePosition, true);
+                }
+            }
+
+            int c = r.Next(1, 3);
             switch (c)
             {
                 case 1:
                     c = r.Next(1, 10);
                     if (c == 1)
-                    {
                         CreateEnemy(platforms.Last());
-                    }
                     break;
+
                 case 2:
                     c = r.Next(1, 10);
                     if (c == 1)
-                    {
                         CreateBonus(platforms.Last());
-                    }
                     break;
             }
         }
 
+        public static void GeneratePlatformAfterSpringBounce(Platform lastPlatform)
+        {
+            Random r = new Random();
+
+            int xNormal = r.Next(0, 270);
+            int yNormal = (int)(lastPlatform.transform.position.Y - 100); 
+
+            while (Math.Abs(xNormal - lastPlatform.transform.position.X) < 60)
+            {
+                xNormal = r.Next(0, 270);
+            }
+
+            PointF normalPosition = new PointF(xNormal, yNormal);
+            AddPlatform(normalPosition, false);
+
+            if (r.NextDouble() < 0.5)
+            {
+                int xFake;
+                int attempts = 0;
+
+                do
+                {
+                    xFake = r.Next(0, 270);
+                    attempts++;
+                }
+                while (Math.Abs(xFake - xNormal) < 60 && attempts < 10);
+
+                if (attempts < 10)
+                {
+                    PointF fakePosition = new PointF(xFake, yNormal);
+                    AddPlatform(fakePosition, true);
+                }
+            }
+        }
+
+
         public static void CreateBonus(Platform platform)
         {
             Random r = new Random();
-            int bonusType = r.Next(1, 2);
+            int bonusType = r.Next(1, 2); 
 
             if (platform.isFake)
             {
@@ -116,6 +154,7 @@ namespace DoodleJump.Classes
                     break;
             }
         }
+
 
         public static void CreateEnemy(Platform platform)
         {
