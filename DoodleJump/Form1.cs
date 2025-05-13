@@ -161,11 +161,11 @@ namespace DoodleJump
         {
             timer1.Stop();
 
-            int earnedCoins = PlatformController.score / 100;  // 100 очков = 1 монета
+            int earnedCoins = PlatformController.score / 100;  
             GameData gameData = SaveSystem.Load();
 
-            gameData.coins += earnedCoins;  // Суммируем монеты
-            SaveSystem.Save(gameData);  // Сохраняем!
+            gameData.coins += earnedCoins;  
+            SaveSystem.Save(gameData);  
 
             MessageBox.Show($"Ви впали, набрав {PlatformController.score} очок.\nОтримано монет: {earnedCoins}\nВсього монет: {gameData.coins}",
                              "КІНЕЦЬ ГРИ",
